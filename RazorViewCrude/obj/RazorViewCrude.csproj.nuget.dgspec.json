@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saura\\OneDrive\\Desktop\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj": {}
+    "D:\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saura\\OneDrive\\Desktop\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj": {
+    "D:\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saura\\OneDrive\\Desktop\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj",
+        "projectUniqueName": "D:\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj",
         "projectName": "RazorViewCrude",
-        "projectPath": "C:\\Users\\saura\\OneDrive\\Desktop\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj",
+        "projectPath": "D:\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude.csproj",
         "packagesPath": "C:\\Users\\saura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saura\\OneDrive\\Desktop\\RazorViewCrude\\RazorViewCrude\\obj\\",
+        "outputPath": "D:\\RazorViewCrude\\RazorViewCrude\\RazorViewCrude\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
