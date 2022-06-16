@@ -1,0 +1,58 @@
+﻿@using RazorViewCrude.ViewModel
+
+
+@model ProductViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Edit Product</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" asp-items="Model.CategoryList" class="form-control">
+                <option value="">Choose Category</option>
+            </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductName">Name</label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductId">ID</label>
+            <input asp-for="ProductId" class="form-control" />
+            <span asp-validation-for="ProductId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UnitPrice">UnitPrice</label>
+            <input asp-for="UnitPrice" class="form-control" />
+            <span asp-validation-for="UnitPrice" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DisplayOrder">Display Order</label>
+            <input asp-for="DisplayOrder" class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:150px"> Edit</button>
+        <a asp-controller="Product" asp-action="Index" class="btn btn-primary" style="width:150px"> Back to List</a>
+    </div>
+</form>
+
+@section scripts{
+    @{
+    <partial name="_ValidationScriptsPartial" />
+    }
+}
+
